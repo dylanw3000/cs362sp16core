@@ -128,4 +128,11 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
 
+/**** The 5 I'm implementing ****/
+int council_room_card();
+int smithy_card();
+int village_card();
+int outpost_card();
+int mine_card();
+   
 #endif
