@@ -1293,7 +1293,7 @@ int smithy_card(struct gameState* state, int currentPlayer, int handPos){
 	
 	
 	//+3 Cards
-      for (i = 0; i < 3; i++)
+      for (i = 0; i < 2; i++) //
 	{
 	  drawCard(currentPlayer, state);
 	}
@@ -1317,7 +1317,7 @@ int village_card(struct gameState* state, int currentPlayer, int handPos){
 
 int outpost_card(struct gameState* state, int currentPlayer, int handPos){
 	//set outpost flag
-      state->outpostPlayed++;
+      state->outpostPlayed += 0; //
 			
       //discard card
       discardCard(handPos, currentPlayer, state, 0);

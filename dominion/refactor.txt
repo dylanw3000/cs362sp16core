@@ -1,0 +1,3 @@
+In the process of refactoring, I took the functions from the switch statement and more or less copy/pasted them into their own functions, with the exception of a few tweaks.  These tweaks include the passing of the game state to the newly made functions, as well as the passage of the hand position of the played card and other relevant variables.  I also modified some of the for loops to work more effectively, mostly by the fact they would not work at all until I declared a variable for i.  There are also bugs by design, because the assignment calls for that.
+
+The card_effect.c is a remenant of old implementation and should be ignored, however I will eventually figure out a way to make it work.
